@@ -16,6 +16,9 @@ LICENSE="JetBrainsToolbox"
 SLOT="0"
 KEYWORDS="~amd64"
 
+RESTRICT="bindist mirror strip"
+
+
 DEPEND="sys-fs/fuse:0"
 
 QA_PREBUILT="/opt/jetbrains-toolbox/jetbrains-toolbox"
