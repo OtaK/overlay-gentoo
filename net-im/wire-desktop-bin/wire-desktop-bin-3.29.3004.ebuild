@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-RESTRICT="bindist mirror"
+RESTRICT="bindist mirror strip"
 
 RDEPEND="gnome-base/gconf:2
          dev-libs/nss
