@@ -10,7 +10,7 @@ HOMEPAGE="https://github.com/hyprwm/Hyprland"
 
 MY_PV="${PV}beta"
 SRC_URI="https://github.com/hyprwm/Hyprland/releases/download/v${MY_PV}/source-v${MY_PV}.tar.gz -> ${P}.tar.gz"
-S="${WORKDIR}"
+S="${WORKDIR}/hyprland-source"
 KEYWORDS="~amd64"
 
 RESTRICT="mirror"
