@@ -21,15 +21,17 @@ IUSE="X nvidia"
 DEPEND="
 	dev-libs/libevdev
 	dev-libs/libinput
+	dev-libs/libliftoff
 	dev-libs/wayland
 	gui-libs/gtk-layer-shell
 	media-libs/glm
 	media-libs/mesa:=[gles2,wayland,X?]
+	=media-libs/libdisplay-info-0.1.1
 	media-libs/libglvnd[X?]
 	media-libs/libjpeg-turbo
 	media-libs/libpng
 	media-libs/freetype:=[X?]
-	>=x11-libs/libdrm-2.4.113:=
+	>=x11-libs/libdrm-2.4.114:=
 	x11-libs/gtk+:3=[wayland,X?]
 	x11-libs/cairo:=[X?,svg(+)]
 	x11-libs/libxkbcommon:=[X?]
