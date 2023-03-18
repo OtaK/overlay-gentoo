@@ -16,10 +16,8 @@ IUSE=""
 
 RESTRICT="bindist mirror strip"
 
-RDEPEND="gnome-base/gconf:2
-         dev-libs/nss
-         x11-libs/libXtst
-         net-print/cups"
+RDEPEND="dev-libs/nss
+         x11-libs/libXtst"
 
 QA_PREBUILT="opt/Wire/wire-desktop"
 

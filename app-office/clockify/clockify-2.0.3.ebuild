@@ -16,7 +16,6 @@ RDEPEND="app-crypt/libsecret
 		dev-libs/libgcrypt
 		dev-libs/nss
 		dev-libs/openssl
-		gnome-base/gconf
 		gnome-base/gnome-keyring
 		gnome-base/gvfs
 		media-libs/libglvnd

@@ -20,7 +20,6 @@ IUSE="doc libnotify system-mesa"
 RDEPEND="app-crypt/libsecret
 	dev-libs/libgcrypt
 	dev-libs/nss
-	gnome-base/gconf:2
 	gnome-base/gnome-keyring
 	virtual/libudev
 	x11-libs/gtk+:2
