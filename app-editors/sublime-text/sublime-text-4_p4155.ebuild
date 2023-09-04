@@ -45,7 +45,7 @@ src_install() {
 
 	# sublime_merge looks for /opt/sublime_text/sublime_text
 	exeinto /opt/${MY_PN}
-	doexe crash_reporter plugin_host-3.3 plugin_host-3.8 sublime_text
+	doexe crash_handler plugin_host-3.3 plugin_host-3.8 sublime_text
 
 	# sublime-text sets its WM_CLASS based on its argv[0]. A wrapper script is
 	# used instead of a symlink to preserve a consistent WM_CLASS regardless of
